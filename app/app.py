@@ -10,5 +10,9 @@ def hello_world():
 def home():
     return "home be chillin"
 
+@app.route('/random')
+def random():
+    return "Random shit go"
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
