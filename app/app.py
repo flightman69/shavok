@@ -12,7 +12,7 @@ def home():
 
 @app.route('/random')
 def random():
-    return "Random shit go"
+    return "Random shit g0o"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
