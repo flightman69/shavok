@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/')
 def home():
-    return "this is home"
+    return "hello from home"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
