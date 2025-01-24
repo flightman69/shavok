@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shavok End Points</title>
     <link rel="stylesheet" href="/static/style.css">
+    <style>
+        a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <div class="loader">
@@ -19,13 +34,28 @@
             </tr>
         </thead>
         <tbody>
-            <tr><td>/</td> <td>GET</td> <td>This html Site</td></tr>
-            <tr><td>/status</td> <td>GET</td> <td>get status</td></tr>
-            <tr><td>/echo</td><td>POST</td> <td>echos back post request</td></tr>
-            <tr><td>/greet/<name></td><td>GET</td> <td>greets with name</td></tr>
+            <tr>
+                <td><a href="https://shavok.up.railway.app/" target="_blank">/</a></td>
+                <td>GET</td>
+                <td>This HTML site</td>
+            </tr>
+            <tr>
+                <td><a href="https://shavok.up.railway.app/status" target="_blank">/status</a></td>
+                <td>GET</td>
+                <td>Get status</td>
+            </tr>
+            <tr>
+                <td><a href="https://shavok.up.railway.app/echo" target="_blank">/echo</a></td>
+                <td>POST</td>
+                <td>Echos back POST request</td>
+            </tr>
+            <tr>
+                <td><a href="https://shavok.up.railway.app/greet/your_name" target="_blank">/greet/{name}</a></td>
+                <td>GET</td>
+                <td>Greets with name</td>
+            </tr>
         </tbody>
     </table>
     <script src="/static/index.js"></script>
 </body>
 </html>
-
